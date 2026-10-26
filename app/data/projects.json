@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Task Board",
+    "description": "A drag-and-drop kanban board built with React. Tasks persist in the browser and can be filtered by label.",
+    "tags": ["React", "CSS Modules"],
+    "github": "https://github.com/your-username/task-board",
+    "demo": "https://example.com/task-board"
+  },
+  {
+    "id": 2,
+    "title": "Campus Notes API",
+    "description": "A REST API for sharing lecture notes, with user accounts, search and pagination.",
+    "tags": ["Node.js", "Express", "MongoDB"],
+    "github": "https://github.com/your-username/campus-notes",
+    "demo": ""
+  },
+  {
+    "id": 3,
+    "title": "Weather Dashboard",
+    "description": "Shows a five-day forecast for any city, using a public weather API and a Chart.js temperature graph.",
+    "tags": ["JavaScript", "API", "Chart.js"],
+    "github": "https://github.com/your-username/weather-dashboard",
+    "demo": "https://example.com/weather"
+  }
+]

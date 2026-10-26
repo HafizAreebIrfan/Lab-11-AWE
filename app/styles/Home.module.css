@@ -1,0 +1,20 @@
+.hero {
+  min-height: calc(100vh - 64px);
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background:
+    linear-gradient(90deg, rgba(20,33,61,.92) 0%, rgba(20,33,61,.55) 70%, rgba(20,33,61,.2) 100%),
+    url('/hero-bg.svg') center / cover no-repeat;
+}
+.content { max-width: var(--max); margin: 0 auto; padding: 3rem 1.25rem; width: 100%; }
+.hello { color: var(--sun); font-weight: 600; margin: 0 0 .75rem; }
+.name { font-size: clamp(2.8rem, 9vw, 6.5rem); letter-spacing: -0.03em; margin: 0 0 .25em; }
+.role { font-size: clamp(1.1rem, 2.5vw, 1.4rem); color: #dfe6f3; margin: 0 0 .75rem; }
+.intro { max-width: 34rem; color: #cdd6ea; margin: 0 0 2rem; }
+.actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+.primary, .secondary { padding: .8rem 1.4rem; border-radius: 8px; font-weight: 600; text-decoration: none; }
+.primary { background: var(--sun); color: var(--ink); }
+.primary:hover { background: #ffd078; }
+.secondary { border: 2px solid #8fa0c4; color: #fff; }
+.secondary:hover { background: rgba(255,255,255,.1); }

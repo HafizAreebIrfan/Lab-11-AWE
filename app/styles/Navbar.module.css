@@ -1,0 +1,15 @@
+.nav { background: var(--ink); color: #fff; position: sticky; top: 0; z-index: 10; }
+.inner { max-width: var(--max); margin: 0 auto; padding: 0 1.25rem; height: 64px; display: flex; align-items: center; justify-content: space-between; }
+.brand { font-family: var(--font-display), sans-serif; font-weight: 700; font-size: 1.15rem; color: #fff; text-decoration: none; }
+.links { display: flex; gap: .25rem; list-style: none; margin: 0; padding: 0; }
+.link { display: block; padding: .5rem .9rem; color: #cdd6ea; text-decoration: none; border-radius: 6px; }
+.link:hover { color: #fff; background: rgba(255,255,255,.08); }
+.active { color: var(--ink); background: var(--sun); }
+.active:hover { color: var(--ink); background: var(--sun); }
+.toggle { display: none; background: none; border: 1px solid #5c6b8c; color: #fff; padding: .4rem .8rem; border-radius: 6px; font: inherit; cursor: pointer; }
+
+@media (max-width: 640px) {
+  .toggle { display: block; }
+  .links { display: none; position: absolute; top: 64px; left: 0; right: 0; flex-direction: column; background: var(--ink); padding: .5rem 1.25rem 1rem; border-top: 1px solid #2f3d5e; }
+  .open { display: flex; }
+}
